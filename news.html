@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /news/
+nav: news
+title: News
+h1_en: News
+h1_ko: 소식
+eyebrow_en: ARC Lab.
+eyebrow_ko: ARC Lab.
+---
+<section class="block">
+  <div class="wrap">
+    <div class="news">
+      {%- for n in site.data.news -%}
+      <div class="news-row">
+        <div class="news-date">{{ n.date }}</div>
+        <div class="news-txt" data-en="{{ n.en }}" data-ko="{{ n.ko }}">{{ n.en }}</div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

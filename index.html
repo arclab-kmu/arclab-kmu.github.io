@@ -1,0 +1,76 @@
+---
+layout: default
+nav: home
+---
+<header class="hero">
+  <div class="wrap">
+    <div style="text-align:center">
+      <div class="eyebrow" data-en="{{ site.university_en }}" data-ko="{{ site.university_ko }}">{{ site.university_en }}</div>
+      <h1 data-en="{{ site.lab_name_en }}" data-ko="{{ site.lab_name_ko }}">{{ site.lab_name_en }}</h1>
+    </div>
+    <div class="hero-grid">
+      <svg class="logo-hero" viewBox="104 76 933 328" role="img" aria-label="ARC Lab logo"><use href="#arc-art"/></svg>
+      <div class="hero-text">
+        <p class="lead"
+           data-en="ARC Lab. focuses primarily on the study of novel control theories and high-performance actuation for intelligent robotics."
+           data-ko="ARC Lab.은 지능형 로봇을 위한 새로운 제어 이론과 고성능 구동에 관한 연구에 주력합니다.">ARC Lab. focuses primarily on the study of novel control theories and high-performance actuation for intelligent robotics.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 data-en="Research" data-ko="연구 분야">Research</h2>
+      <a class="more" href="{{ '/research/' | relative_url }}" data-en="All areas &rarr;" data-ko="전체 보기 &rarr;">All areas &rarr;</a>
+    </div>
+    <div class="cards">
+      {%- for r in site.data.research -%}
+      <div class="card">
+        <div class="ic">{% include research-icon.html icon=r.icon %}</div>
+        <h3 data-en="{{ r.title_en }}" data-ko="{{ r.title_ko }}">{{ r.title_en }}</h3>
+        <p data-en="{{ r.desc_en }}" data-ko="{{ r.desc_ko }}">{{ r.desc_en }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 data-en="Latest News" data-ko="연구실 소식">Latest News</h2>
+      <a class="more" href="{{ '/news/' | relative_url }}" data-en="All news &rarr;" data-ko="전체 소식 &rarr;">All news &rarr;</a>
+    </div>
+    <div class="news">
+      {%- for n in site.data.news limit:5 -%}
+      <div class="news-row">
+        <div class="news-date">{{ n.date }}</div>
+        <div class="news-txt" data-en="{{ n.en }}" data-ko="{{ n.ko }}">{{ n.en }}</div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 data-en="Selected Publications" data-ko="대표 논문">Selected Publications</h2>
+      <a class="more" href="{{ '/publications/' | relative_url }}" data-en="All publications &rarr;" data-ko="전체 논문 &rarr;">All publications &rarr;</a>
+    </div>
+    <div class="pubs">
+      {%- for p in site.data.publications.international limit:5 -%}
+      <div class="pub">
+        <div class="yr">{{ p.year }}</div>
+        <div>
+          <div class="pt">{{ p.title }}</div>
+          <div class="pa">{{ p.authors | replace: 'Hyung-Tae Seo', '<strong>Hyung-Tae Seo</strong>' }}</div>
+          <div class="pv">{{ p.venue }}{% if p.note_en %} &middot; <em data-en="{{ p.note_en }}" data-ko="{{ p.note_ko }}">{{ p.note_en }}</em>{% endif %}</div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,248 @@
+# Principal Investigator
+pi:
+  name_en: "Hyung-Tae Seo"
+  name_ko: "서형태"
+  title_en: "Assistant Professor · Principal Investigator"
+  title_ko: "조교수 · 연구책임자"
+  email: "htseo@kookmin.ac.kr"
+  office: "Rm 709, Future Hall"
+  phone: "+82 02-910-4703"
+  bio_en: "Hyung-Tae Seo is an Assistant Professor at Kookmin University and Principal Investigator of the ARC Lab. He previously served as an Assistant Professor at Kyonggi University (2023-2026) and as a staff researcher at the Samsung Advanced Institute of Technology (SAIT, 2020-2023). He received his B.S., M.S., and Ph.D. in Mechanical Engineering from KAIST. His research centers on robust control theory - disturbance observers and learning-based control - and its application to intelligent robotic systems."
+  bio_ko: "서형태 교수는 국민대학교 조교수이자 ARC 연구실의 책임교수입니다. 이전에는 경기대학교 조교수(2023-2026)와 삼성종합기술원(SAIT) 전임연구원(2020-2023)을 역임했습니다. KAIST에서 기계공학 학사·석사·박사 학위를 받았으며, 외란 관측기와 학습 기반 제어를 중심으로 한 강인 제어 이론과 이를 지능형 로봇 시스템에 적용하는 연구를 수행합니다."
+  education:
+    - en: "Ph.D. in Mechanical Engineering, KAIST (2020)"
+      ko: "KAIST 기계공학 박사 (2020)"
+    - en: "M.S. in Mechanical Engineering, KAIST (2013)"
+      ko: "KAIST 기계공학 석사 (2013)"
+    - en: "B.S. in Mechanical Engineering, KAIST (2011)"
+      ko: "KAIST 기계공학 학사 (2011)"
+
+# Current members
+current:
+  - {
+      name_en: "Sueon Chae",
+      name_ko: "채수언",
+      role_en: "Researcher",
+      role_ko: "연구원",
+      interest: "Guidance, Navigation & Control",
+      email: "cse1598@naver.com",
+    }
+  - {
+      name_en: "Byeonghyeon Kim",
+      name_ko: "김병현",
+      role_en: "Graduate Student (Lab Leader)",
+      role_ko: "대학원생 (랩장)",
+      interest: "Reinforcement Learning-based Manipulation",
+      email: "kkbbhj@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Junu Lee",
+      name_ko: "이준우",
+      role_en: "Graduate Student",
+      role_ko: "대학원생",
+      interest: "Vision-based Robot Control",
+      email: "wsd9793@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Junho Lee",
+      name_ko: "이준호",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Materials for Robotics",
+      email: "dlwnsgh0725@gmail.com",
+    }
+  - {
+      name_en: "Beoung Hwa Kang",
+      name_ko: "강병화",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Robotic State Estimation",
+      email: "gangbh@kyonggi.ac.kr",
+    }
+  - {
+      name_en: "Sol Hwang",
+      name_ko: "황솔",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Reinforcement Learning-based Robot Control",
+      email: "solsol219@gmail.com",
+    }
+  - {
+      name_en: "Gyungjae Kim",
+      name_ko: "김경재",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Model Predictive Control",
+      email: "economy02@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Sebeom Kim",
+      name_ko: "김세범",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Vision-based Robot Control",
+      email: "sebum50@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Taehyun Kim",
+      name_ko: "김태현",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Vision-Language-Action",
+      email: "ykj8806@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Hojin Kim",
+      name_ko: "김호진",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Sim-to-Real Robot Learning",
+      email: "hojinkim@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Mingu Kang",
+      name_ko: "강민구",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Model Predictive Control",
+      email: "wild060@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Younggi Cho",
+      name_ko: "조영기",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "DOB-Based Control",
+      email: "cyg10cyg@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Ju-Young Jung",
+      name_ko: "정주영",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Vision-based Robotics for Lab Automation",
+      email: "juyoung1703@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Mingue Jung",
+      name_ko: "정민규",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Bipedal Robot Control",
+      email: "mingue12644@kyonggi.ac.kr",
+    }
+
+# Alumni (newest first)
+alumni:
+  - {
+      name_en: "Yeon Jae Lee",
+      name_ko: "이연재",
+      year: 2026,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "JaeMyeong Yang",
+      name_ko: "양재명",
+      year: 2026,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "Duckheon Koo",
+      name_ko: "구덕헌",
+      year: 2026,
+      dest_en: "Grad school, Chungnam National University",
+      dest_ko: "대학원 (충남대학교)",
+    }
+  - {
+      name_en: "Chae Won Lee",
+      name_ko: "이채원",
+      year: 2026,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "Jeonghun Lee",
+      name_ko: "이정훈",
+      year: 2026,
+      dest_en: "Grad school, Korea University (Soft Mechatronics & Robotics Lab)",
+      dest_ko: "대학원 (고려대학교 Soft Mechatronics & Robotics Lab)",
+    }
+  - {
+      name_en: "Hyeongjin Lee",
+      name_ko: "이형진",
+      year: 2026,
+      dest_en: "Grad school, DGIST (Fluid & Soft Robotics Lab)",
+      dest_ko: "대학원 (DGIST Fluid & Soft Robotics Lab)",
+    }
+  - {
+      name_en: "Yongbeen Lee",
+      name_ko: "이용빈",
+      year: 2026,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "ChaHun Kim",
+      name_ko: "김차훈",
+      year: 2025,
+      dest_en: "OnRobot Korea",
+      dest_ko: "OnRobot Korea",
+    }
+  - {
+      name_en: "Dong Yun Shin",
+      name_ko: "신동윤",
+      year: 2025,
+      dest_en: "Kortek",
+      dest_ko: "코텍 (Kortek)",
+    }
+  - {
+      name_en: "Donggeon Yoon",
+      name_ko: "윤동건",
+      year: 2025,
+      dest_en: "Grad school, Sungkyunkwan University (Intelligent Robotics)",
+      dest_ko: "대학원 (성균관대학교 지능형로봇학과)",
+    }
+  - {
+      name_en: "SeongJin An",
+      name_ko: "안성진",
+      year: 2025,
+      dest_en: "Grad school, Yonsei University (DAMIS Lab)",
+      dest_ko: "대학원 (연세대학교 DAMIS Lab)",
+    }
+  - {
+      name_en: "Tae Yang Shin",
+      name_ko: "신태양",
+      year: 2025,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "Yonghoon Lee",
+      name_ko: "이용훈",
+      year: 2025,
+      dest_en: "",
+      dest_ko: "",
+    }
+  - {
+      name_en: "Sanha Lee",
+      name_ko: "이산하",
+      year: 2025,
+      dest_en: "Korea Automobile Safety Research Institute",
+      dest_ko: "자동차안전연구원 미래차연구처",
+    }
+  - {
+      name_en: "Dong Hyeok Kim",
+      name_ko: "김동혁",
+      year: 2025,
+      dest_en: "MDS Tech",
+      dest_ko: "MDS테크",
+    }
+  - {
+      name_en: "DoHyeon Lee",
+      name_ko: "이도현",
+      year: 2024,
+      dest_en: "Korea Automotive Technology Institute",
+      dest_ko: "한국자동차연구원",
+    }

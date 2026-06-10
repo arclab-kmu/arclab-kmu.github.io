@@ -1,0 +1,46 @@
+# Research areas — shown as cards on Home and in detail on /research/
+- key: control
+  icon: wave
+  title_en: "Robust Control Theories & Applications"
+  title_ko: "강인 제어 이론 및 응용"
+  desc_en: "Control theory that stays robust under uncertainty and disturbances — from disturbance-observer (DOB) design in the H-infinity framework to robustness guarantees for learning-based control."
+  desc_ko: "불확실성과 외란 속에서도 강인한 제어 이론 — H-infinity 기반 외란 관측기(DOB) 설계부터 학습 기반 제어의 강인성 보장까지."
+  topics:
+    - en: "Disturbance observer (DOB) design in the H-infinity framework"
+      ko: "H-infinity 프레임워크 기반 외란 관측기(DOB) 설계"
+    - en: "Optimal / dual DOB for nonlinear and slow-fast systems; DOB-based MPC"
+      ko: "비선형·이중시간척도 시스템을 위한 최적/이중 DOB 및 DOB 기반 MPC"
+    - en: "Disturbance-aware & Lyapunov-based reinforcement learning for robust stability"
+      ko: "강인 안정성을 위한 외란 인지·리아푸노프 기반 강화학습"
+    - en: "DOB-inspired compensation of the sim-to-real gap"
+      ko: "DOB에서 착안한 sim-to-real 격차 보상"
+
+- key: robotics
+  icon: robot
+  title_en: "Intelligent Robotics"
+  title_ko: "지능형 로보틱스"
+  desc_en: "Bringing control theory to physical robots: high-performance actuation, vision-based and dual-arm manipulation, and pneumatically actuated humanoids."
+  desc_ko: "제어 이론을 실제 로봇으로 구현합니다 — 고성능 구동, 비전 기반·양팔 매니퓰레이션, 공압 구동 휴머노이드."
+  topics:
+    - en: "Response-improved electro-hydraulic actuation (EHA)"
+      ko: "응답 성능을 개선한 전기-유압 구동(EHA) 시스템"
+    - en: "Compact Bernoulli (Coanda) gripper for thin-object transport"
+      ko: "박형 물체 이송용 소형 베르누이(코안다) 그리퍼"
+    - en: "Vision-based & dual-arm manipulation; 3D mapping with a 2D LiDAR on a manipulator"
+      ko: "비전 기반·양팔 매니퓰레이션, 매니퓰레이터 기반 2D 라이다 3차원 계측"
+    - en: "Pneumatic biped design, RL walking control, and gait generation"
+      ko: "공압 이족 로봇 설계, 강화학습 보행 제어, 보행 패턴 생성"
+
+- key: autolab
+  icon: flask
+  title_en: "Autonomous Laboratory"
+  title_ko: "자율 실험실"
+  desc_en: "Autonomous laboratories — robotic systems that synthesize materials and run chemical experiments with minimal human intervention."
+  desc_ko: "자율 실험실 — 최소한의 사람 개입으로 소재를 합성하고 화학 실험을 수행하는 로봇 시스템."
+  topics:
+    - en: "Robotic laboratory for chemistry & materials (autonomous synthesis)"
+      ko: "화학·소재를 위한 로봇 실험실 (자율 합성)"
+    - en: "Quantum-dot thin-film process and solvent-formulation optimization"
+      ko: "양자점 박막 공정 및 용매 조성 최적화"
+    - en: "Automated lab equipment: batch filtering, multi-functional vial processing"
+      ko: "자동화 실험 장비: 배치형 여과, 다기능 바이알 처리"

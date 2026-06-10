@@ -1,0 +1,19 @@
+<nav class="nav">
+  <div class="nav-in">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="logo-nav" viewBox="104 76 933 328" role="img" aria-label="ARC Lab"><use href="#arc-art"/></svg>
+      <span class="bn">{{ site.lab_short }}</span>
+    </a>
+    <div class="nav-right">
+      <div class="menu" id="menu">
+        {%- for item in site.nav -%}
+        <a href="{{ item.url | relative_url }}"{% if page.nav == item.key %} class="active"{% endif %} data-en="{{ item.en }}" data-ko="{{ item.ko }}">{{ item.en }}</a>
+        {%- endfor -%}
+      </div>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+      <button class="hamb" id="hamb" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>

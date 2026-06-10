@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow"
+         data-en="{{ page.eyebrow_en | default: site.lab_name_en }}"
+         data-ko="{{ page.eyebrow_ko | default: site.lab_name_ko }}">{{ page.eyebrow_en | default: site.lab_name_en }}</div>
+    <h1 data-en="{{ page.h1_en }}" data-ko="{{ page.h1_ko }}">{{ page.h1_en }}</h1>
+    {%- if page.sub_en -%}
+    <p data-en="{{ page.sub_en }}" data-ko="{{ page.sub_ko }}">{{ page.sub_en }}</p>
+    {%- endif -%}
+  </div>
+</header>
+{{ content }}

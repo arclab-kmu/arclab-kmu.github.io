@@ -1,0 +1,156 @@
+# Publications. PI name is auto-bolded at render time.
+# (*) denotes corresponding author.
+
+international:
+  - year: 2026
+    note_en: "Under Review"
+    note_ko: "심사 중"
+    authors: "Donghyun Kim, Yun-Pyo Hong, Hyung-Tae Seo, Minseong Choi* and Kyung-Soo Kim*"
+    title: "PHAER: Pneumatic Hybrid Actuated Efficient Robot With Under-Constrained Biped Walking"
+    venue: "IEEE Transactions on Industrial Electronics"
+  - year: 2026
+    authors: "Byeonggwan Jang, Hyung-Tae Seo, Seungho Han, Woo-Yong Kim and Kyung-Soo Kim*"
+    title: "Mechanism of Post-Charge Self-Balancing in Parallel Battery Systems"
+    venue: "2026 IFAC World Congress, Busan"
+  - year: 2025
+    authors: "Ji-il Park, SeungHyeon Jo, Hyung-Tae Seo*, and Jihyuk Park*"
+    title: "Real-time Snowfall Recognition and Object Tracking System for Autonomous Driving in Adverse Snowy Weather"
+    venue: "IEEE Access"
+  - year: 2025
+    authors: "Jihyuk Park*, Joon Lee, Hyung-Tae Seo*, and Seokhwan Jeong*"
+    title: "Variable Transmission Mechanisms for Robotic Applications: A Review"
+    venue: "2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta"
+  - year: 2025
+    authors: "Ji-il Park, SeungHyeon Jo, Hyung-Tae Seo*, and Jihyuk Park*"
+    title: "LiDAR Denoising Methods in Adverse Environments: A Review"
+    venue: "IEEE Sensors Journal"
+  - year: 2024
+    authors: "Jihyuk Park*, Joon Lee, Hyung-Tae Seo*, and Seokhwan Jeong*"
+    title: "Variable Transmission Mechanisms for Robotic Applications: A Review"
+    venue: "IEEE Robotics and Automation Magazine (IEEE RAM)"
+  - year: 2024
+    authors: "Ji-il Park, SeungHyeon Jo, Hyung-Tae Seo*, and Jihyuk Park*"
+    title: "LiDAR-based Snowfall Level Classification for Safe Autonomous Driving in terrestrial, maritime, and aerial environments"
+    venue: "Sensors"
+  - year: 2024
+    authors: "Hangyeol Song, Edgar Lee, Hyung-Tae Seo*, and Seokhwan Jeong*"
+    title: "Magnetic Gear-based Actuator: A Framework of Design, Optimization, and Disturbance Observer-based Torque Control"
+    venue: "2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama"
+  - year: 2023
+    authors: "Taesin Ha, Dongseon Lee, Youngchun Kwon, ..., Hyung-Tae Seo, ..., Youn-Suk Choi*"
+    title: "AI-driven robotic chemist for autonomous synthesis of organic molecules"
+    venue: "Science Advances"
+  - year: 2023
+    authors: "Hangyeol Song, Edgar Lee, Hyung-Tae Seo*, and Seokhwan Jeong*"
+    title: "Magnetic Gear-based Actuator: A Framework of Design, Optimization, and Disturbance Observer-based Torque Control"
+    venue: "IEEE Robotics and Automation Letters (RA-L)"
+  - year: 2023
+    authors: "Ji-il Park, SeungHyeon Jo, Hyung-Tae Seo, Keun Ha Choi, Jihyuk Park*, and Kyung-Soo Kim*"
+    title: "Kalman filter-based Suspicious Object Tracking for Scientific Boundary Monitoring System using Fixed Automotive Radar"
+    venue: "2023 Sensor Signal Processing for Defence Conference (SSPD), Edinburgh"
+  - year: 2022
+    authors: "Hyung-Tae Seo, Yun-Pyo Hong, Jihyuk Park*, Kyung-Soo Kim*"
+    title: "Improving the Response of an Electrohydrostatic Actuation (EHA) System Using a High-Pressure Accumulator"
+    venue: "IEEE Access"
+  - year: 2021
+    authors: "Hyung-Tae Seo, Ji-il Park, and Jihyuk Park*"
+    title: "A compact series elastic element using a rubber compression mechanism"
+    venue: "Review of Scientific Instruments (RSI)"
+  - year: 2020
+    authors: "Hyung-Tae Seo, Soohyun Kim, and Kyung-Soo Kim*"
+    title: "An H∞ Design of Disturbance Observer for a Class of Linear Time-Invariant Single-Input/Single-Output Systems"
+    venue: "International Journal of Control, Automation and Systems (IJCAS)"
+  - year: 2020
+    authors: "Woo-Yong Kim, Hyung-Tae Seo, Soohyun Kim, and Kyung-Soo Kim*"
+    title: "Practical Approach for Controlling Optical Image Stabilization System"
+    venue: "International Journal of Control, Automation and Systems (IJCAS)"
+  - year: 2020
+    authors: "Jihyuk Park*, Ji-il Park, Hyung-Tae Seo, Yanheng Liu, Kyung-Soo Kim, Soohyun Kim"
+    title: "Control of tendon-driven (Twisted-string Actuator) robotic joint with adaptive variable-radius pulley"
+    venue: "2020 International Conference on Control, Automation and Systems (ICCAS), Busan"
+  - year: 2018
+    authors: "Yonghun Kim, Hyung-Tae Seo, Seok-Kyoon Kim*, and Kyung-Soo Kim*"
+    title: "A Robust Current Controller for Uncertain Permanent Magnet Synchronous Motors with a Performance Recovery Property for Electric Power Steering Applications"
+    venue: "Energies"
+  - year: 2018
+    authors: "Hyung-Tae Seo and Kyung-Soo Kim*"
+    title: "Secondary Controller with Additional Disturbance Rejection in H∞ Framework: Motivated by Disturbance Observer"
+    venue: "2018 American Control Conference (ACC), Milwaukee"
+  - year: 2018
+    authors: "Hyung-Tae Seo and Kyung-Soo Kim*"
+    title: "Sliding-Mode Control for Electro-Hydrostatic Actuation Systems With Mismatched Disturbances Via a Disturbance Observer"
+    venue: "2018 International Conference on Motion and Vibration (MoViC), Daejeon"
+  - year: 2017
+    authors: "Hyung-Tae Seo, Kyung-Soo Kim*, and Soohyun Kim"
+    title: "General Design of Disturbance Observer for Stable Linear Time-invariant Single-input Single-output Systems via an H∞ Approach"
+    venue: "2017 American Control Conference (ACC), Seattle"
+  - year: 2017
+    authors: "Hyung-Tae Seo, Yun-Pyo Hong, Jihyuk Park, and Kyung-Soo Kim*"
+    title: "Backstepping Control for Electro-Hydrostatic Actuation Systems With Mismatched Disturbances Via a Disturbance Observer"
+    venue: "2017 International Conference on Control, Automation and Systems (ICCAS), Jeju"
+  - year: 2016
+    authors: "Hyung-Tae Seo, Dae-Gyeom Kang, Yun-Pyo Hong, Kyung-Soo Kim*, Jae-Kwan Ryu, and Junsik Lee"
+    title: "Combined Feedforward and Disturbance Observer-Based Control of Pump-Controlled Electro-Hydrostatic Actuation System"
+    venue: "2016 International Conference on Control, Automation and Systems (ICCAS), Gyeongju"
+  - year: 2015
+    authors: "Hyung-Tae Seo, Kyung-Soo Kim*, and Soohyun Kim"
+    title: "Add-on Controller Design Based on Disturbance Observer in H∞ Framework"
+    venue: "2015 International Conference on Control, Automation and Systems (ICCAS), Busan"
+  - year: 2014
+    authors: "Dowan Cha, Hyung-Tae Seo, Sung Nam Oh, Jungsan Cho, Kab Il Kim*, Kyung-Soo Kim, and Soohyun Kim"
+    title: "Verification of the peak time approach for detection of step initiation using the UTRCEXO"
+    venue: "International Journal of Control, Automation, and Systems (IJCAS)"
+  - year: 2014
+    authors: "Hyung-Tae Seo, Kyung-Soo Kim*, and Soohyun Kim"
+    title: "Reinterpretation of Disturbance Observer as an Add-on Controller"
+    venue: "2014 International Conference on Control, Automation and Systems (ICCAS), Ilsan"
+  - year: 2013
+    authors: "Hyung-Tae Seo, Kyung-Soo Kim*, and Soohyun Kim"
+    title: "Generalized Design of Disturbance Observer for Non-minimum Phase system Using an H∞ Approach"
+    venue: "2013 International Conference on Control, Automation and Systems (ICCAS), Gwangju"
+
+domestic:
+  - { year: 2026, authors: "이준우, 서형태*", title: "로봇 매니퓰레이터의 안전궤적 생성을 위한 랜덤 휴리스틱 기반 파이프라인", venue: "2026 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2026, authors: "이채원, 채수언, 박지혁, 서형태*", title: "화학공정에서 비전센싱이 가능한 자동화 볼텍싱/틸팅 시스템 개발", venue: "2026 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2026, authors: "강병화, 이준우, 채수언, 서형태*", title: "강인 자세 추정을 위한 단일 IMU 대상 적응형 오차 상태 칼만 필터 설계", venue: "2026 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2026, authors: "이연재, 이동규, 서형태*", title: "메카넘 휠 기반 모바일 로봇을 위한 TPU 플렉셔 메커니즘을 이용한 서스펜션 개발", venue: "2026 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2025, authors: "채수언, 서형태*", title: "블록 백스테핑 기반 6자유도 원형 낙하산의 위치 추종 제어", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "이정훈, 이용빈, 홍윤표, 서형태*", title: "박형 물체 이송 제어를 위한 소형 베르누이(코안다) 그리퍼의 Lifting Force 모델 분석", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "이형진, 구덕헌, 최민성, 박지일, 서형태*", title: "매니퓰레이터를 이용한 2D라이다의 Point-Wise 좌표변환 기반 3차원 공간 계측", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "구덕헌, 이형진, 서형태*", title: "쿼드콥터 드론의 RRT* 경로계획법 기반 Pop-Up 기동을 통한 급강하 폭격 알고리즘 설계", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "이용빈, 이정훈, 서형태*", title: "모바일 매니퓰레이터의 중량물 Lifting을 위한 강화학습 기반 Whole-Body Motion 제어", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "양재명, 이준우, 서형태*", title: "모바일 매니퓰레이터를 활용한 실험실용 액체 이송 기술의 설계 및 구현", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "정민규, 임혜림, 서형태*", title: "ROS2 환경에서 가변 강성-댐핑 기반 무릎 구동이 가능한 로봇 다리의 동작 효율성 분석", venue: "2025 제어·로봇·시스템학회 (ICROS), 전주" }
+  - { year: 2025, authors: "이에드가, 김태민, 서형태*, 정석환*", title: "RL-DOB를 이용한 강화학습 정책의 강인성 향상", venue: "2025 대한기계학회 동역학·제어·로봇부문 춘계학술대회 (KSME), 제주" }
+  - { year: 2025, authors: "박지일, 전현용, 이민영, 서형태*, 박지혁*", title: "활주로 제설차 무인화를 위한 RPN 최적화 적용 스테레오 RCNN 기반 객체 탐지 기술 개발", venue: "2025 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2025, authors: "이에드가, 김태민, 정석환*, 서형태*", title: "가치 함수 기반 외란 관측기를 이용한 강화학습 제어기의 강인성 향상", venue: "2025 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2024, authors: "채수언, 서형태*", title: "캐노피 틸팅 기반 원형 낙하산의 구동력 분석", venue: "2024 한국항공우주학회 추계학술대회 (KSAS), 정선" }
+  - { year: 2024, authors: "이에드가, 김태민, 서형태*, 정석환*", title: "가치 함수에 기반한 외란 관측기를 통한 강화학습 제어기의 강인성 향상", venue: "2024 국방로봇학회, 대전" }
+  - { year: 2024, authors: "채수언, 서형태*", title: "원형 낙하산의 위치 추종을 위한 강인 적응 백스테핑 제어기 설계", venue: "2024 제어·로봇·시스템학회 (ICROS), 대전" }
+  - { year: 2024, authors: "안성진, 김차훈, 윤동건, 박지일, 최민성, 서형태*", title: "다자유도 매니퓰레이터를 이용한 2D 라이다의 실시간 3차원 공간 계측", venue: "2024 제어·로봇·시스템학회 (ICROS), 대전" }
+  - { year: 2024, authors: "장병관, 서형태, 한승호, 김우용, 김경수*", title: "그래프 이론을 이용한 충전 후 병렬 연결 배터리 셀들의 전류 흐름 분석", venue: "2024 제어·로봇·시스템학회 (ICROS), 대전" }
+  - { year: 2024, authors: "윤동건, 안성진, 김차훈, 서형태*", title: "AWS DeepRacer를 통한 강화학습 자율주행에서 행동 공간 이산화에 따른 성능 비교", venue: "2024 한국자동차공학회 춘계학술대회 (KSAE), 거제" }
+  - { year: 2024, authors: "신동윤, 김차훈, 이준우, 서형태*", title: "MATLAB/Simscape를 이용한 Two-Stage 피스톤 방식 수소압축기의 성능 분석", venue: "2024 한국로봇종합학술대회 (KRoC), 평창" }
+  - { year: 2018, authors: "서형태, 강대겸, 김경수*, 김수현", title: "외란 관측기를 이용한 유체정역학적 구동 시스템의 백스테핑 제어", venue: "제어·로봇·시스템학회논문지" }
+  - { year: 2018, authors: "서형태, 김경수*", title: "유체 정역학적 구동 시스템의 비정합 외란 보상을 위한 외란 관측기 기반 위치 제어", venue: "2018 제어·로봇·시스템학회 (ICROS)" }
+  - { year: 2018, authors: "서형태, 최경환, 홍윤표, 김경수*", title: "전 방향 이족 보행을 위한 유한 시간 이차 계획법 기반 예견 제어", venue: "2018 한국로봇종합학술대회 (KRoC)" }
+  - { year: 2017, authors: "황재웅, 최경환, 서형태, 김경수*, 김수현", title: "이동형 플랫폼에 탑재된 포탑 시스템의 모션 안정화 제어기 설계", venue: "제어·로봇·시스템학회논문지" }
+  - { year: 2017, authors: "서형태, 강대겸, 김경수*, 김수현", title: "펌프 제어 기반 유체정역학적 구동 시스템을 위한 외란 관측기 기반 백스테핑 제어", venue: "2017 제어·로봇·시스템학회 (ICROS)" }
+  - { year: 2017, authors: "황재웅, 최경환, 서형태, 김경수*, 김수현", title: "포탑 시스템의 강인한 모션 안정화를 위한 Dual-Stage 제어기 설계", venue: "2017 제어·로봇·시스템학회 (ICROS)" }
+  - { year: 2017, authors: "서형태, 최경환, 이동욱, 박지혁, 윤병호, 김경수*, 김수현", title: "연성각 보행 모델을 가지는 이족 보행 로봇의 보행 패턴 생성", venue: "2017 한국로봇종합학술대회 (KRoC)" }
+  - { year: 2016, authors: "유재관*, 서형태", title: "펌프 가변제어기반 유압시스템의 피드백 제어", venue: "한국정밀공학회지" }
+  - { year: 2016, authors: "서형태, 김경수*, 김수현", title: "루프성형을 통한 일반화된 외란 관측기 최적 설계", venue: "2016 제어·로봇·시스템학회 (ICROS)" }
+  - { year: 2016, authors: "홍윤표, 김경수*, 서형태, 윤원수", title: "공통 레귤레이터를 이용한 듀얼 헤드 디스펜싱 시스템의 토출 유량 검증", venue: "2016 한국정밀공학회 춘계학술대회 (KSPE)" }
+  - { year: 2015, authors: "서형태, 이동욱, 김우용, 김경수*", title: "루프성형(Loop shaping)을 이용한 제어기 설계 및 응용", venue: "전기의세계" }
+  - { year: 2015, authors: "박지혁, 서형태, 김준혁, 이민재, 김경수, 김수현*", title: "재난대처 로봇의 매니퓰레이터 구현 및 7축 여유자유도 매니퓰레이터의 역기구학 해석", venue: "2015 대한기계학회 (KSME)" }
+  - { year: 2013, authors: "서형태, 김경수*, 김수현", title: "H∞ 기법을 이용한 비최소 위상 시스템에 대한 최적 외란 관측기 설계", venue: "2013 제어·로봇·시스템학회 (ICROS)" }
+  - { year: 2011, authors: "박지일, 차도완, 서형태, 김지철, 구동한, 오건영, 홍현화, 백주현, 류재관, 김수현, 박수경, 김경수*", title: "동역학 시뮬레이션 프로그램을 이용한 보행동작재현 시뮬레이터 구현", venue: "2011 한국정밀공학회 추계학술대회 (KSPE)" }
+
+patents:
+  - { year: 2026, title: "Material synthesis apparatus and method of operating the same", no: "US 12586664 B2" }
+  - { year: 2026, title: "Batch-type apparatus for filtering", no: "US 12576351 B2" }
+  - { year: 2025, title: "Apparatus for supplying liquid and system for supplying liquid including the same", no: "US 12298166 B2" }
+  - { year: 2024, title: "Sealing structure and material containing device including the same", no: "US 12145782 B2" }
+  - { year: 2024, title: "Heat exchanger and heat exchanging system comprising the same", no: "US 12135170 B2" }
+  - { year: 2024, title: "AI 기반 양자점 박막 소재 예측을 위한 로봇 시스템", no: "10-2024-0162570 (출원 / pending)" }
+  - { year: 2018, title: "펌프 기반 유체 정역학적 구동부 제어 시스템 및 그 제어 방법", no: "10-1839039" }

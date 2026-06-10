@@ -1,0 +1,57 @@
+---
+layout: page
+permalink: /publications/
+nav: publications
+title: Publications
+h1_en: Publications
+h1_ko: 논문
+eyebrow_en: ARC Lab.
+eyebrow_ko: ARC Lab.
+sub_en: "Journal articles, conference proceedings, and patents. (*) denotes corresponding author."
+sub_ko: "학술지·학술대회 논문 및 특허. (*)는 교신저자."
+---
+{%- assign pubs = site.data.publications -%}
+<section class="block">
+  <div class="wrap">
+    <h2 class="subhead" data-en="International" data-ko="국제 논문">International</h2>
+    <div class="pubs">
+      {%- for p in pubs.international -%}
+      <div class="pub">
+        <div class="yr">{{ p.year }}</div>
+        <div>
+          <div class="pt">{{ p.title }}</div>
+          <div class="pa">{{ p.authors | replace: 'Hyung-Tae Seo', '<strong>Hyung-Tae Seo</strong>' }}</div>
+          <div class="pv">{{ p.venue }}{% if p.note_en %} &middot; <em data-en="{{ p.note_en }}" data-ko="{{ p.note_ko }}">{{ p.note_en }}</em>{% endif %}</div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+
+    <h2 class="subhead" style="margin-top:48px" data-en="Domestic" data-ko="국내 논문">Domestic</h2>
+    <div class="pubs">
+      {%- for p in pubs.domestic -%}
+      <div class="pub">
+        <div class="yr">{{ p.year }}</div>
+        <div>
+          <div class="pt">{{ p.title }}</div>
+          <div class="pa">{{ p.authors | replace: '서형태', '<strong>서형태</strong>' }}</div>
+          <div class="pv">{{ p.venue }}</div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+
+    <h2 class="subhead" style="margin-top:48px" data-en="Patents" data-ko="특허">Patents</h2>
+    <div class="pubs">
+      {%- for p in pubs.patents -%}
+      <div class="pub">
+        <div class="yr">{{ p.year }}</div>
+        <div>
+          <div class="pt">{{ p.title }}</div>
+          <div class="pv">{{ p.no }}</div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

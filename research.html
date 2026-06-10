@@ -1,0 +1,25 @@
+---
+layout: page
+permalink: /research/
+nav: research
+title: Research
+h1_en: Research
+h1_ko: 연구
+eyebrow_en: ARC Lab.
+eyebrow_ko: ARC Lab.
+sub_en: "Novel control theories and high-performance actuation for intelligent robotics."
+sub_ko: "지능형 로봇을 위한 새로운 제어 이론과 고성능 구동 연구."
+---
+<section class="block">
+  <div class="wrap prose">
+    {%- for r in site.data.research -%}
+    <h2 data-en="{{ r.title_en }}" data-ko="{{ r.title_ko }}">{{ r.title_en }}</h2>
+    <p data-en="{{ r.desc_en }}" data-ko="{{ r.desc_ko }}">{{ r.desc_en }}</p>
+    <ul>
+      {%- for t in r.topics %}
+      <li data-en="{{ t.en }}" data-ko="{{ t.ko }}">{{ t.en }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endfor -%}
+  </div>
+</section>

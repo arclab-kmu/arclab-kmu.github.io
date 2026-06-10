@@ -1,0 +1,49 @@
+# ===== Site identity =====
+title: ARC Lab.
+tagline: Autonomous Robotics & Control Lab
+description: >-
+  Autonomous Robotics & Control (ARC) Lab at Kookmin University — the study of
+  novel control theories and high-performance actuation for intelligent robotics.
+
+lab_name_en: Autonomous Robotics & Control Lab
+lab_name_ko: 자율로보틱스및제어연구실
+lab_short: ARC Lab.
+university_en: Kookmin University
+university_ko: 국민대학교
+department_en: School of Electrical Engineering
+department_ko: 전자공학부
+email: htseo@kookmin.ac.kr
+office_en: "Rm 709, Future Hall, Kookmin University, 77 Jeongneung-ro, Seongbuk-gu, Seoul 02707, Korea"
+office_ko: "서울특별시 성북구 정릉로 77, 국민대학교 미래관 709호"
+lab_room_en: "Lab: Rm 504-1, Future Hall, Kookmin University"
+lab_room_ko: "연구실: 국민대학교 미래관 504-1호"
+phone: "+82 2 910 4703"
+address_en: "77 Jeongneung-ro, Seongbuk-gu, Seoul, Republic of Korea"
+address_ko: "서울특별시 성북구 정릉로 77"
+
+# ===== Build / URLs =====
+url: "https://arclab-kmu.github.io"
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+sass:
+  style: compressed
+
+# ===== Navigation (bilingual) =====
+nav:
+  - { key: home,         en: "Home",         ko: "홈",     url: "/" }
+  - { key: people,       en: "People",       ko: "구성원",  url: "/people/" }
+  - { key: research,     en: "Research",     ko: "연구",    url: "/research/" }
+  - { key: publications, en: "Publications", ko: "논문",    url: "/publications/" }
+  - { key: news,         en: "News",         ko: "소식",    url: "/news/" }
+  - { key: gallery,      en: "Gallery",      ko: "갤러리",  url: "/gallery/" }
+
+# ===== Exclude from build =====
+exclude:
+  - demo/
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore

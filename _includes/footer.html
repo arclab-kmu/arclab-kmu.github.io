@@ -1,0 +1,31 @@
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div style="max-width:360px">
+        <div class="fb">
+          <svg class="logo-foot" viewBox="104 76 933 328" aria-label="ARC"><use href="#arc-art"/></svg>
+          <span class="bn">{{ site.lab_short }}</span>
+        </div>
+        <p>
+          <span data-en="{{ site.lab_name_en }}" data-ko="{{ site.lab_name_ko }}">{{ site.lab_name_en }}</span><br>
+          <span data-en="{{ site.department_en }}, {{ site.university_en }}" data-ko="{{ site.university_ko }} {{ site.department_ko }}">{{ site.department_en }}, {{ site.university_en }}</span><br>
+          <span data-en="{{ site.office_en }}" data-ko="{{ site.office_ko }}">{{ site.office_en }}</span>
+        </p>
+      </div>
+      <div class="fcol">
+        <h4 data-en="Explore" data-ko="바로가기">Explore</h4>
+        {%- for item in site.nav offset:1 -%}
+        <a href="{{ item.url | relative_url }}" data-en="{{ item.en }}" data-ko="{{ item.ko }}">{{ item.en }}</a>
+        {%- endfor -%}
+      </div>
+      <div class="fcol">
+        <h4 data-en="Contact" data-ko="연락처">Contact</h4>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="tel:{{ site.phone | replace: ' ', '' }}">{{ site.phone }}</a>
+      </div>
+    </div>
+    <div class="copy"
+         data-en="© 2026 {{ site.lab_name_en }}, {{ site.university_en }}."
+         data-ko="© 2026 {{ site.lab_name_ko }}, {{ site.university_ko }}.">© 2026 {{ site.lab_name_en }}, {{ site.university_en }}.</div>
+  </div>
+</footer>

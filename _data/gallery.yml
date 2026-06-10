@@ -1,0 +1,8 @@
+# Gallery — captions for placeholder tiles.
+# Replace `img:` with a real file under /assets/gallery/ to show a photo.
+- { caption_en: "ARC Lab summer workshop 2024",        caption_ko: "ARC Lab 하계 워크샵 2024",      img: "" }
+- { caption_en: "ICROS 2025, Jeonju",                  caption_ko: "ICROS 2025, 전주",              img: "" }
+- { caption_en: "Undergraduate Best Paper Award",      caption_ko: "학부생 논문상 수상",            img: "" }
+- { caption_en: "KRoC 2026, Pyeongchang",              caption_ko: "KRoC 2026, 평창",               img: "" }
+- { caption_en: "Mobility design competition (3rd)",   caption_ko: "창작 모빌리티 경진대회 우수상", img: "" }
+- { caption_en: "Lab seminar",                         caption_ko: "연구실 세미나",                 img: "" }

@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: /gallery/
+nav: gallery
+title: Gallery
+h1_en: Gallery
+h1_ko: 갤러리
+eyebrow_en: ARC Lab.
+eyebrow_ko: ARC Lab.
+sub_en: "Moments from the lab. Photos coming soon."
+sub_ko: "연구실의 순간들. 사진은 곧 추가됩니다."
+---
+<section class="block">
+  <div class="wrap">
+    <div class="gal">
+      {%- for g in site.data.gallery -%}
+      <figure class="tile">
+        <div class="ph">
+          {%- if g.img and g.img != "" -%}
+          <img src="{{ g.img | relative_url }}" alt="{{ g.caption_en }}">
+          {%- else -%}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 16l-5-5L5 19"/></svg>
+          {%- endif -%}
+        </div>
+        <figcaption data-en="{{ g.caption_en }}" data-ko="{{ g.caption_ko }}">{{ g.caption_en }}</figcaption>
+      </figure>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
