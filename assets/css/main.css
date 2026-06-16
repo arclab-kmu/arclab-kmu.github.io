@@ -1,11 +1,11 @@
 /* ============================================================
    ARC Lab — main stylesheet
-   Brand: navy #162841, red #a50001. Font: Inter + Noto Sans KR.
+   Brand: navy #182c47, red #ab0001. Font: Inter + Noto Sans KR.
    ============================================================ */
 :root{
-  --navy:#162841; --red:#a50001; --ink:#222; --muted:#5b6473;
+  --navy:#182c47; --red:#ab0001; --ink:#222; --muted:#5b6473;
   --line:#e6e8ec; --bg-soft:#f7f8fa; --maxw:1140px;
-  --logo-1:#162841; --logo-2:#a50001;
+  --logo-1:#182c47; --logo-2:#ab0001;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
