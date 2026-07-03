@@ -83,6 +83,7 @@ current:
       role_ko: "학부연구생",
       interest: "Vision-Language-Action",
       email: "ykj8806@kookmin.ac.kr",
+      homepage: "https://taetae77.github.io",
     }
   - {
       name_en: "Hojin Kim",
@@ -91,6 +92,7 @@ current:
       role_ko: "학부연구생",
       interest: "Sim-to-Real Robot Learning",
       email: "hojinkim@kookmin.ac.kr",
+      homepage: "https://hojinlab.github.io",
     }
   - {
       name_en: "Mingu Kang",

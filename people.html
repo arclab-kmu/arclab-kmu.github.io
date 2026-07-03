@@ -50,7 +50,10 @@ eyebrow_ko: ARC Lab.
         <div class="pn" data-en="{{ m.name_en }}" data-ko="{{ m.name_ko }}">{{ m.name_en }}</div>
         <div class="pr" data-en="{{ m.role_en }}" data-ko="{{ m.role_ko }}">{{ m.role_en }}</div>
         <div class="pf">{{ m.interest }}</div>
-        {%- include mail-link.html email=m.email -%}
+        <div class="plinks">
+          {%- include mail-link.html email=m.email -%}
+          {%- if m.homepage and m.homepage != "" %}{%- include home-link.html url=m.homepage -%}{% endif -%}
+        </div>
       </div>
       {%- endfor -%}
     </div>
@@ -70,7 +73,10 @@ eyebrow_ko: ARC Lab.
         <div class="avatar">{%- include avatar.html name=a.name_en photo=a.photo -%}</div>
         <div class="pn" data-en="{{ a.name_en }}" data-ko="{{ a.name_ko }}">{{ a.name_en }}</div>
         {%- if a.dest_en != "" %}<div class="pf" data-en="{{ a.dest_en }}" data-ko="{{ a.dest_ko }}">{{ a.dest_en }}</div>{% endif -%}
-        {%- if a.email and a.email != "" %}{%- include mail-link.html email=a.email -%}{% endif -%}
+        <div class="plinks">
+          {%- if a.email and a.email != "" %}{%- include mail-link.html email=a.email -%}{% endif -%}
+          {%- if a.homepage and a.homepage != "" %}{%- include home-link.html url=a.homepage -%}{% endif -%}
+        </div>
       </div>
       {%- endif -%}
       {%- endfor -%}

@@ -99,7 +99,8 @@ section.block{padding:62px 0}
 .person .pn{font-size:16px;font-weight:600;color:var(--navy)}
 .person .pr{font-size:13.5px;color:var(--muted);margin-top:2px}
 .person .pf{font-size:12.5px;color:#9aa2af;margin-top:5px}
-.person .pe{display:inline-flex;align-items:center;justify-content:center;color:var(--red);margin-top:8px;transition:opacity .15s}
+.person .plinks{display:flex;align-items:center;justify-content:center;gap:13px;margin-top:8px}
+.person .pe{display:inline-flex;align-items:center;justify-content:center;color:var(--red);transition:opacity .15s}
 .person .pe svg{width:18px;height:18px}
 .person .pe:hover{opacity:.6}
 .subhead{font-size:15px;font-weight:600;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;margin:8px 0 26px;padding-bottom:10px;border-bottom:1px solid var(--line)}
@@ -135,7 +136,7 @@ section.block{padding:62px 0}
 .prose li{font-size:16px;color:#33394a;line-height:1.7;margin:6px 0}
 
 /* ---------- Footer ---------- */
-footer{background:var(--navy);color:#c9d2e0;padding:46px 0 38px;--logo-1:#ffffff;--logo-2:#d96b6b}
+footer{background:var(--navy);color:#c9d2e0;padding:46px 0 38px;--logo-1:#ffffff;--logo-2:#e11d22}
 .foot-grid{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}
 footer .fb{display:flex;align-items:center;gap:11px;margin-bottom:13px}
 .logo-foot{height:26px;width:auto;display:block}
