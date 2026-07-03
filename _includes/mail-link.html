@@ -1,0 +1,6 @@
+{%- comment -%}
+  Email icon link (envelope). Icon-only — no visible text label, so it is not
+  a [data-en] node and the language toggle leaves it untouched.
+  Param: email - the address for the mailto: link (also shown on hover title)
+{%- endcomment -%}
+<a class="pe" href="mailto:{{ include.email }}" aria-label="Email" title="{{ include.email }}"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>

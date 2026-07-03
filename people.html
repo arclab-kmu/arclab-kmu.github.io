@@ -15,7 +15,7 @@ eyebrow_ko: ARC Lab.
 <section class="block">
   <div class="wrap">
     <div class="pi-card">
-      <div class="avatar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5 0-9 2.5-9 6v2h18v-2c0-3.5-4-6-9-6z"/></svg></div>
+      <div class="avatar">{%- include avatar.html name=pi.name_en photo=pi.photo -%}</div>
       <div>
         <h3 data-en="{{ pi.name_en }}" data-ko="{{ pi.name_ko }} ({{ pi.name_en }})">{{ pi.name_en }}</h3>
         <div class="role" data-en="{{ pi.title_en }}" data-ko="{{ pi.title_ko }}">{{ pi.title_en }}</div>
@@ -46,11 +46,11 @@ eyebrow_ko: ARC Lab.
     <div class="people">
       {%- for m in current -%}
       <div class="person">
-        <div class="avatar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5 0-9 2.5-9 6v2h18v-2c0-3.5-4-6-9-6z"/></svg></div>
+        <div class="avatar">{%- include avatar.html name=m.name_en photo=m.photo -%}</div>
         <div class="pn" data-en="{{ m.name_en }}" data-ko="{{ m.name_ko }}">{{ m.name_en }}</div>
         <div class="pr" data-en="{{ m.role_en }}" data-ko="{{ m.role_ko }}">{{ m.role_en }}</div>
         <div class="pf">{{ m.interest }}</div>
-        <a class="pe" href="mailto:{{ m.email }}" data-en="Email" data-ko="이메일">Email</a>
+        {%- include mail-link.html email=m.email -%}
       </div>
       {%- endfor -%}
     </div>
@@ -60,14 +60,21 @@ eyebrow_ko: ARC Lab.
 <section class="block">
   <div class="wrap">
     <h2 class="subhead" data-en="Alumni" data-ko="졸업생">Alumni</h2>
-    <div class="alumni">
+    {%- assign years = alumni | map: "year" | uniq | sort | reverse -%}
+    {%- for y in years -%}
+    <h3 class="year-head" data-en="{{ y }}" data-ko="{{ y }}년">{{ y }}</h3>
+    <div class="people">
       {%- for a in alumni -%}
-      <div class="al-row">
-        <span class="al-yr">{{ a.year }}</span>
-        <span class="al-name" data-en="{{ a.name_en }}" data-ko="{{ a.name_ko }}">{{ a.name_en }}</span>
-        {%- if a.dest_en != "" %}<span class="al-dest" data-en="{{ a.dest_en }}" data-ko="{{ a.dest_ko }}">{{ a.dest_en }}</span>{% endif -%}
+      {%- if a.year == y -%}
+      <div class="person">
+        <div class="avatar">{%- include avatar.html name=a.name_en photo=a.photo -%}</div>
+        <div class="pn" data-en="{{ a.name_en }}" data-ko="{{ a.name_ko }}">{{ a.name_en }}</div>
+        {%- if a.dest_en != "" %}<div class="pf" data-en="{{ a.dest_en }}" data-ko="{{ a.dest_ko }}">{{ a.dest_en }}</div>{% endif -%}
+        {%- if a.email and a.email != "" %}{%- include mail-link.html email=a.email -%}{% endif -%}
       </div>
+      {%- endif -%}
       {%- endfor -%}
     </div>
+    {%- endfor -%}
   </div>
 </section>

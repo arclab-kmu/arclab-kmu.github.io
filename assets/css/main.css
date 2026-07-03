@@ -91,28 +91,22 @@ section.block{padding:62px 0}
 /* ---------- People ---------- */
 .people{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .person{text-align:center}
-.avatar{width:128px;height:128px;border-radius:50%;margin:0 auto 14px;background:#eef1f5;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);overflow:hidden}
-.avatar img{width:100%;height:100%;object-fit:cover}
+.avatar{width:128px;height:128px;border-radius:50%;margin:0 auto 14px;background:#eef1f5;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);overflow:hidden;position:relative}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .avatar svg{width:54px;height:54px;color:#aeb6c2}
 .person.pi .avatar{background:var(--navy);border-color:var(--navy)}
 .person.pi .avatar svg{color:#fff}
 .person .pn{font-size:16px;font-weight:600;color:var(--navy)}
 .person .pr{font-size:13.5px;color:var(--muted);margin-top:2px}
 .person .pf{font-size:12.5px;color:#9aa2af;margin-top:5px}
-.person .pe{font-size:12.5px;color:var(--red);margin-top:5px}
+.person .pe{display:inline-flex;align-items:center;justify-content:center;color:var(--red);margin-top:8px;transition:opacity .15s}
+.person .pe svg{width:18px;height:18px}
+.person .pe:hover{opacity:.6}
 .subhead{font-size:15px;font-weight:600;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;margin:8px 0 26px;padding-bottom:10px;border-bottom:1px solid var(--line)}
 
-/* Alumni list */
-.alumni{display:flex;flex-direction:column}
-.al-row{display:flex;gap:16px;align-items:baseline;padding:12px 2px;border-bottom:1px solid var(--line)}
-.al-yr{flex:0 0 46px;font-weight:700;color:var(--red);font-variant-numeric:tabular-nums}
-.al-name{flex:0 0 168px;font-weight:600;color:var(--navy)}
-.al-dest{color:var(--muted);font-size:14.5px}
-@media (max-width:520px){
-  .al-row{flex-wrap:wrap;gap:4px 14px}
-  .al-name{flex-basis:auto}
-  .al-dest{flex-basis:100%}
-}
+/* Alumni — same card grid as members, grouped by graduation year */
+.year-head{font-size:15px;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums;margin:34px 0 18px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.year-head:first-of-type{margin-top:4px}
 
 /* PI detail block (people page top) */
 .pi-card{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:start;margin-bottom:48px}

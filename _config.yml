@@ -45,6 +45,7 @@ nav:
 exclude:
   - demo/
   - README.md
+  - assets/img/people/README.md
   - LICENSE
   - Gemfile
   - Gemfile.lock

@@ -1,0 +1,16 @@
+{%- comment -%}
+  Profile avatar. Shows a photo if one exists, otherwise a placeholder icon.
+  Params:
+    name  - person's English name (used for alt text + auto filename)
+    photo - optional: override filename inside /assets/img/people/ (e.g. "custom.png")
+  Photo filename convention (when `photo` is not given):
+    English name -> lowercase -> spaces replaced with "-" -> add ".jpg"
+    e.g. "Sueon Chae" -> assets/img/people/sueon-chae.jpg
+{%- endcomment -%}
+{%- if include.photo and include.photo != "" -%}
+  {%- assign imgfile = include.photo -%}
+{%- else -%}
+  {%- assign imgfile = include.name | downcase | replace: " ", "-" | append: ".jpg" -%}
+{%- endif -%}
+<img src="{{ '/assets/img/people/' | append: imgfile | relative_url }}" alt="{{ include.name }}" loading="lazy" onerror="this.style.display='none'">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5 0-9 2.5-9 6v2h18v-2c0-3.5-4-6-9-6z"/></svg>

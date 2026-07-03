@@ -69,14 +69,6 @@ current:
       email: "solsol219@gmail.com",
     }
   - {
-      name_en: "Gyungjae Kim",
-      name_ko: "김경재",
-      role_en: "Undergraduate Researcher",
-      role_ko: "학부연구생",
-      interest: "Model Predictive Control",
-      email: "economy02@kookmin.ac.kr",
-    }
-  - {
       name_en: "Sebeom Kim",
       name_ko: "김세범",
       role_en: "Undergraduate Researcher",
@@ -136,11 +128,20 @@ current:
 # Alumni (newest first)
 alumni:
   - {
+      name_en: "Gyungjae Kim",
+      name_ko: "김경재",
+      year: 2027,
+      dest_en: "Grad school, DGIST (Dept. of Electrical Engineering & Computer Science, ISL Lab)",
+      dest_ko: "대학원 (DGIST 전자전기컴퓨터공학과 ISL Lab)",
+      email: "economy02@kookmin.ac.kr",
+    }
+  - {
       name_en: "Yeon Jae Lee",
       name_ko: "이연재",
       year: 2026,
       dest_en: "",
       dest_ko: "",
+      email: "greatbook2222@gmail.com",
     }
   - {
       name_en: "JaeMyeong Yang",
@@ -148,6 +149,7 @@ alumni:
       year: 2026,
       dest_en: "",
       dest_ko: "",
+      email: "hope1jack@naver.com",
     }
   - {
       name_en: "Duckheon Koo",
@@ -155,6 +157,7 @@ alumni:
       year: 2026,
       dest_en: "Grad school, Chungnam National University",
       dest_ko: "대학원 (충남대학교)",
+      email: "ktkookdh@naver.com",
     }
   - {
       name_en: "Chae Won Lee",
@@ -162,20 +165,23 @@ alumni:
       year: 2026,
       dest_en: "",
       dest_ko: "",
+      email: "lchwon0713@naver.com",
     }
   - {
       name_en: "Jeonghun Lee",
       name_ko: "이정훈",
       year: 2026,
-      dest_en: "Grad school, Korea University (Soft Mechatronics & Robotics Lab)",
-      dest_ko: "대학원 (고려대학교 Soft Mechatronics & Robotics Lab)",
+      dest_en: "Grad school, Korea University (School of Electrical Engineering, Soft Mechatronics & Robotics Lab)",
+      dest_ko: "대학원 (고려대학교 전기전자공학부 Soft Mechatronics & Robotics Lab)",
+      email: "my3122hot@gmail.com",
     }
   - {
       name_en: "Hyeongjin Lee",
       name_ko: "이형진",
       year: 2026,
-      dest_en: "Grad school, DGIST (Fluid & Soft Robotics Lab)",
-      dest_ko: "대학원 (DGIST Fluid & Soft Robotics Lab)",
+      dest_en: "Grad school, DGIST (Dept. of Robotics & Mechatronics Engineering, Fluid & Soft Robotics Lab)",
+      dest_ko: "대학원 (DGIST 로봇및기계전자공학과 Fluid & Soft Robotics Lab)",
+      email: "ssd2209@kyonggi.ac.kr",
     }
   - {
       name_en: "Yongbeen Lee",
@@ -183,6 +189,7 @@ alumni:
       year: 2026,
       dest_en: "",
       dest_ko: "",
+      email: "bean4567@kyonggi.ac.kr",
     }
   - {
       name_en: "ChaHun Kim",
@@ -190,6 +197,7 @@ alumni:
       year: 2025,
       dest_en: "OnRobot Korea",
       dest_ko: "OnRobot Korea",
+      email: "foxsllll@kyonggi.ac.kr",
     }
   - {
       name_en: "Dong Yun Shin",
@@ -197,6 +205,7 @@ alumni:
       year: 2025,
       dest_en: "Kortek",
       dest_ko: "코텍 (Kortek)",
+      email: "shinmych@kyonggi.ac.kr",
     }
   - {
       name_en: "Donggeon Yoon",
@@ -204,13 +213,15 @@ alumni:
       year: 2025,
       dest_en: "Grad school, Sungkyunkwan University (Intelligent Robotics)",
       dest_ko: "대학원 (성균관대학교 지능형로봇학과)",
+      email: "donggeonyoom@naver.com",
     }
   - {
       name_en: "SeongJin An",
       name_ko: "안성진",
       year: 2025,
-      dest_en: "Grad school, Yonsei University (DAMIS Lab)",
-      dest_ko: "대학원 (연세대학교 DAMIS Lab)",
+      dest_en: "Grad school, Yonsei University (School of Mechanical Engineering, DAMIS Lab)",
+      dest_ko: "대학원 (연세대학교 기계공학부 DAMIS Lab)",
+      email: "sjahn2000@kyonggi.ac.kr",
     }
   - {
       name_en: "Tae Yang Shin",
@@ -218,6 +229,7 @@ alumni:
       year: 2025,
       dest_en: "",
       dest_ko: "",
+      email: "201912581@kyonggi.ac.kr",
     }
   - {
       name_en: "Yonghoon Lee",
@@ -225,6 +237,7 @@ alumni:
       year: 2025,
       dest_en: "",
       dest_ko: "",
+      email: "dldydgns01@kyonggi.ac.kr",
     }
   - {
       name_en: "Sanha Lee",
@@ -232,6 +245,7 @@ alumni:
       year: 2025,
       dest_en: "Korea Automobile Safety Research Institute",
       dest_ko: "자동차안전연구원 미래차연구처",
+      email: "dltksgk1212@naver.com",
     }
   - {
       name_en: "Dong Hyeok Kim",
@@ -239,11 +253,13 @@ alumni:
       year: 2025,
       dest_en: "MDS Tech",
       dest_ko: "MDS테크",
+      email: "kdyug314@naver.com",
     }
   - {
       name_en: "DoHyeon Lee",
       name_ko: "이도현",
       year: 2024,
-      dest_en: "Korea Automotive Technology Institute",
-      dest_ko: "한국자동차연구원",
+      dest_en: "Korea Automotive Technology Institute (Chassis & Materials R&D Institute)",
+      dest_ko: "한국자동차연구원 섀시·소재기술연구소",
+      email: "lkjh0329@kyonggi.ac.kr",
     }
