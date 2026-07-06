@@ -47,7 +47,7 @@ current:
   - {
       name_en: "Beoung Hwa Kang",
       name_ko: "강병화",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Robotic State Estimation",
       email: "gangbh@kyonggi.ac.kr",
@@ -55,7 +55,7 @@ current:
   - {
       name_en: "Taehyun Kim",
       name_ko: "김태현",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Vision-Language-Action",
       email: "ykj8806@kookmin.ac.kr",
@@ -64,7 +64,7 @@ current:
   - {
       name_en: "Hojin Kim",
       name_ko: "김호진",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Sim-to-Real Robot Learning",
       email: "hojinkim@kookmin.ac.kr",
@@ -73,7 +73,7 @@ current:
   - {
       name_en: "Mingu Kang",
       name_ko: "강민구",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Model Predictive Control",
       email: "wild060@kookmin.ac.kr",
@@ -81,7 +81,7 @@ current:
   - {
       name_en: "Younggi Cho",
       name_ko: "조영기",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "DOB-Based Control",
       email: "cyg10cyg@kookmin.ac.kr",
@@ -89,7 +89,7 @@ current:
   - {
       name_en: "Ju-Young Jung",
       name_ko: "정주영",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Vision-based Robotics for Lab Automation",
       email: "juyoung1703@kookmin.ac.kr",
@@ -97,7 +97,7 @@ current:
   - {
       name_en: "HyungMin Sung",
       name_ko: "성형민",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Vision-Language-Action",
       email: "ajkl9210@kookmin.ac.kr",
@@ -105,7 +105,7 @@ current:
   - {
       name_en: "Dongsuk Choi",
       name_ko: "최동석",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "",
       email: "arcturus@kookmin.ac.kr",
@@ -113,7 +113,7 @@ current:
   - {
       name_en: "JinHwan Ahn",
       name_ko: "안진환",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Autonomous Laboratory",
       email: "tkvkflaos@kookmin.ac.kr",
@@ -121,7 +121,7 @@ current:
   - {
       name_en: "Mingue Jung",
       name_ko: "정민규",
-      role_en: "Undergraduate Researcher",
+      role_en: "Undergraduate Student",
       role_ko: "학부연구생",
       interest: "Bipedal Robot Control",
       email: "mingue12644@kyonggi.ac.kr",
