@@ -53,22 +53,6 @@ current:
       email: "gangbh@kyonggi.ac.kr",
     }
   - {
-      name_en: "Sol Hwang",
-      name_ko: "황솔",
-      role_en: "Undergraduate Researcher",
-      role_ko: "학부연구생",
-      interest: "Reinforcement Learning-based Robot Control",
-      email: "solsol219@gmail.com",
-    }
-  - {
-      name_en: "Sebeom Kim",
-      name_ko: "김세범",
-      role_en: "Undergraduate Researcher",
-      role_ko: "학부연구생",
-      interest: "Vision-based Robot Control",
-      email: "sebum50@kookmin.ac.kr",
-    }
-  - {
       name_en: "Taehyun Kim",
       name_ko: "김태현",
       role_en: "Undergraduate Researcher",
