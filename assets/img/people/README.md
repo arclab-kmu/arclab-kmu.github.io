@@ -4,13 +4,13 @@
 사진이 없는 사람은 자동으로 기본 아이콘(회색 실루엣)이 표시됩니다.
 
 ## 파일명 규칙
-`영문 이름` → 모두 소문자 → 공백을 `-`(하이픈)으로 → 확장자 `.jpg` 또는 `.jpeg`
+`영문 이름` → 모두 소문자 → 공백을 `-`(하이픈)으로 → 확장자 `.jpg`, `.jpeg`, 또는 `.png`
 
 예) `Sueon Chae` → `sueon-chae.jpg`
 
 ## 권장 사양
 - 정사각형(1:1), 최소 400×400px 이상 (권장 600×600px)
-- 형식: **JPG/JPEG** (`.jpg` 또는 `.jpeg`). PNG/WebP를 꼭 써야 하면 `_data/members.yml`의 해당 인물에 `photo: "이름.png"` 한 줄을 추가하세요.
+- 형식: **JPG/JPEG/PNG** (`.jpg`, `.jpeg`, `.png`). WebP를 꼭 써야 하면 `_data/members.yml`의 해당 인물에 `photo: "이름.webp"` 한 줄을 추가하세요.
 - 얼굴이 가운데 오도록 정사각형으로 크롭 (원형으로 잘려 표시됨)
 
 ## 파일명 목록
@@ -36,6 +36,8 @@
 | 조영기 Younggi Cho | `younggi-cho.jpg` |
 | 정주영 Ju-Young Jung | `ju-young-jung.jpg` |
 | 성형민 HyungMin Sung | `hyungmin-sung.jpg` 또는 `hyungmin-sung.jpeg` |
+| 최동석 Dongsuk Choi | `dongsuk-choi.jpg` 또는 `dongsuk-choi.png` |
+| 안진환 JinHwan Ahn | `jinhwan-ahn.jpg` |
 | 정민규 Mingue Jung | `mingue-jung.jpg` |
 
 ### 졸업생 (Alumni)
@@ -54,9 +56,9 @@
 | 윤동건 Donggeon Yoon | `donggeon-yoon.jpg` |
 | 안성진 SeongJin An | `seongjin-an.jpg` |
 | 신태양 Tae Yang Shin | `tae-yang-shin.jpg` |
-| 이용훈 Yonghoon Lee | `yonghoon-lee.jpg` |
+| 이용훈 Yonghoon Lee | `yonghoon-lee.jpg` 또는 `yonghoon-lee.png` |
 | 이산하 Sanha Lee | `sanha-lee.jpg` |
 | 김동혁 Dong Hyeok Kim | `dong-hyeok-kim.jpg` |
 | 이도현 DoHyeon Lee | `dohyeon-lee.jpg` |
 
-> 새 구성원을 추가할 때도 규칙은 같습니다: `_data/members.yml`에 영문 이름을 넣고, 그 이름을 소문자+하이픈으로 바꾼 `.jpg` 또는 `.jpeg` 파일을 이 폴더에 넣으면 됩니다.
+> 새 구성원을 추가할 때도 규칙은 같습니다: `_data/members.yml`에 영문 이름을 넣고, 그 이름을 소문자+하이픈으로 바꾼 `.jpg`, `.jpeg`, 또는 `.png` 파일을 이 폴더에 넣으면 됩니다.

@@ -4,7 +4,7 @@
     name  - person's English name (used for alt text + auto filename)
     photo - optional: override filename inside /assets/img/people/ (e.g. "custom.png")
   Photo filename convention (when `photo` is not given):
-    English name -> lowercase -> spaces replaced with "-" -> try ".jpg", then ".jpeg"
+    English name -> lowercase -> spaces replaced with "-" -> try ".jpg", ".jpeg", then ".png"
     e.g. "Sueon Chae" -> assets/img/people/sueon-chae.jpg
 {%- endcomment -%}
 {%- if include.photo and include.photo != "" -%}
@@ -19,6 +19,12 @@
     {%- assign jpeg_path = "/assets/img/people/" | append: jpegfile -%}
     {%- if static_paths contains jpeg_path -%}
       {%- assign imgfile = jpegfile -%}
+    {%- else -%}
+      {%- assign pngfile = imgbase | append: ".png" -%}
+      {%- assign png_path = "/assets/img/people/" | append: pngfile -%}
+      {%- if static_paths contains png_path -%}
+        {%- assign imgfile = pngfile -%}
+      {%- endif -%}
     {%- endif -%}
   {%- endunless -%}
 {%- endif -%}
