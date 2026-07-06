@@ -45,14 +45,6 @@ current:
       email: "wsd9793@kookmin.ac.kr",
     }
   - {
-      name_en: "Junho Lee",
-      name_ko: "이준호",
-      role_en: "Undergraduate Researcher",
-      role_ko: "학부연구생",
-      interest: "Materials for Robotics",
-      email: "dlwnsgh0725@gmail.com",
-    }
-  - {
       name_en: "Beoung Hwa Kang",
       name_ko: "강병화",
       role_en: "Undergraduate Researcher",
@@ -127,6 +119,30 @@ current:
       email: "ajkl9210@kookmin.ac.kr",
     }
   - {
+      name_en: "HyungMin Sung",
+      name_ko: "성형민",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Vision-Language-Action",
+      email: "ajkl9210@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Dongsuk Choi",
+      name_ko: "최동석",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "",
+      email: "arcturus@kookmin.ac.kr",
+    }
+  - {
+      name_en: "JinHwan Ahn",
+      name_ko: "안진환",
+      role_en: "Undergraduate Researcher",
+      role_ko: "학부연구생",
+      interest: "Autonomous Laboratory",
+      email: "tkvkflaos@kookmin.ac.kr",
+    }
+  - {
       name_en: "Mingue Jung",
       name_ko: "정민규",
       role_en: "Undergraduate Researcher",
@@ -137,6 +153,14 @@ current:
 
 # Alumni (newest first)
 alumni:
+  - {
+      name_en: "Junho Lee",
+      name_ko: "이준호",
+      year: 2027,
+      dest_en: "",
+      dest_ko: "",
+      email: "dlwnsgh0725@gmail.com",
+    }
   - {
       name_en: "Gyungjae Kim",
       name_ko: "김경재",
