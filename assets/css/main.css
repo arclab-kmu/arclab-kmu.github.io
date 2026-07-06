@@ -112,7 +112,7 @@ section.block{padding:62px 0}
 
 /* PI detail block (people page top) */
 .pi-card{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:start;margin-bottom:48px}
-.pi-card .avatar{width:200px;aspect-ratio:4/5;margin:0;background:var(--navy);border-color:var(--navy)}
+.pi-card .avatar{width:200px;aspect-ratio:4/5;margin:0;background:var(--navy)}
 .pi-card .avatar svg{color:#fff}
 .pi-card h3{font-size:23px;color:var(--navy);font-weight:700}
 .pi-card .role{font-size:15px;color:var(--red);font-weight:600;margin-top:4px}
