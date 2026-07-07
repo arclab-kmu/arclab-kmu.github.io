@@ -13,6 +13,8 @@
 - 형식: **JPG/JPEG/PNG** (`.jpg`, `.jpeg`, `.png`). WebP를 꼭 써야 하면 `_data/members.yml`의 해당 인물에 `photo: "이름.webp"` 한 줄을 추가하세요.
 - 얼굴이 가운데 오도록 정사각형으로 크롭 (원형으로 잘려 표시됨)
 
+> 이 표는 `_data/members.yml`을 기준으로 작성했습니다. 파일명 열은 실제 폴더에 존재하는 파일을 반영합니다(확장자가 `.jpg`가 아니면 그대로 표기).
+
 ## 파일명 목록
 
 ### PI
@@ -26,23 +28,21 @@
 | 채수언 Sueon Chae | `sueon-chae.jpg` |
 | 김병현 Byeonghyeon Kim | `byeonghyeon-kim.jpg` |
 | 이준우 Junu Lee | `junu-lee.jpg` |
-| 이준호 Junho Lee | `junho-lee.jpg` |
 | 강병화 Beoung Hwa Kang | `beoung-hwa-kang.jpg` |
-| 황솔 Sol Hwang | `sol-hwang.jpg` |
-| 김세범 Sebeom Kim | `sebeom-kim.jpg` |
 | 김태현 Taehyun Kim | `taehyun-kim.jpg` |
 | 김호진 Hojin Kim | `hojin-kim.jpg` |
 | 강민구 Mingu Kang | `mingu-kang.jpg` |
 | 조영기 Younggi Cho | `younggi-cho.jpg` |
 | 정주영 Ju-Young Jung | `ju-young-jung.jpg` |
-| 성형민 HyungMin Sung | `hyungmin-sung.jpg` 또는 `hyungmin-sung.jpeg` |
-| 최동석 Dongsuk Choi | `dongsuk-choi.jpg` 또는 `dongsuk-choi.png` |
-| 안진환 JinHwan Ahn | `jinhwan-ahn.jpg` |
+| 성형민 HyungMin Sung | `hyungmin-sung.jpeg` |
+| 최동석 Dongsuk Choi | `dongsuk-choi.png` |
+| 안진환 JinHwan Ahn | `jinhwan-ahn.jpg` _(사진 미등록 — 기본 아이콘 표시)_ |
 | 정민규 Mingue Jung | `mingue-jung.jpg` |
 
 ### 졸업생 (Alumni)
 | 이름 | 파일명 |
 | --- | --- |
+| 이준호 Junho Lee | `junho-lee.jpg` |
 | 김경재 Gyungjae Kim | `gyungjae-kim.jpg` |
 | 이연재 Yeon Jae Lee | `yeon-jae-lee.jpg` |
 | 양재명 JaeMyeong Yang | `jaemyeong-yang.jpg` |
@@ -56,7 +56,7 @@
 | 윤동건 Donggeon Yoon | `donggeon-yoon.jpg` |
 | 안성진 SeongJin An | `seongjin-an.jpg` |
 | 신태양 Tae Yang Shin | `tae-yang-shin.jpg` |
-| 이용훈 Yonghoon Lee | `yonghoon-lee.jpg` 또는 `yonghoon-lee.png` |
+| 이용훈 Yonghoon Lee | `yonghoon-lee.png` |
 | 이산하 Sanha Lee | `sanha-lee.jpg` |
 | 김동혁 Dong Hyeok Kim | `dong-hyeok-kim.jpg` |
 | 이도현 DoHyeon Lee | `dohyeon-lee.jpg` |
