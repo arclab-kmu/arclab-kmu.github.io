@@ -29,20 +29,20 @@ current:
       email: "cse1598@naver.com",
     }
   - {
-      name_en: "Byeonghyeon Kim",
-      name_ko: "김병현",
-      role_en: "Graduate Student (Lab Leader)",
-      role_ko: "대학원생 (랩장)",
-      interest: "Reinforcement Learning-based Manipulation",
-      email: "kkbbhj@kookmin.ac.kr",
-    }
-  - {
       name_en: "Junu Lee",
       name_ko: "이준우",
       role_en: "Graduate Student",
       role_ko: "대학원생",
       interest: "Vision-based Robot Control",
       email: "wsd9793@kookmin.ac.kr",
+    }
+  - {
+      name_en: "Byeonghyeon Kim",
+      name_ko: "김병현",
+      role_en: "Graduate Student (Lab Leader)",
+      role_ko: "대학원생 (랩장)",
+      interest: "Reinforcement Learning-based Manipulation",
+      email: "kkbbhj@kookmin.ac.kr",
     }
   - {
       name_en: "Beoung Hwa Kang",

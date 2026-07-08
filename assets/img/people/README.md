@@ -4,30 +4,33 @@
 사진이 없는 사람은 자동으로 기본 아이콘(회색 실루엣)이 표시됩니다.
 
 ## 파일명 규칙
+
 `영문 이름` → 모두 소문자 → 공백을 `-`(하이픈)으로 → 확장자 `.jpg`, `.jpeg`, 또는 `.png`
 
 예) `Sueon Chae` → `sueon-chae.jpg`
 
 ## 권장 사양
+
 - 정사각형(1:1), 최소 400×400px 이상 (권장 600×600px)
 - 형식: **JPG/JPEG/PNG** (`.jpg`, `.jpeg`, `.png`). WebP를 꼭 써야 하면 `_data/members.yml`의 해당 인물에 `photo: "이름.webp"` 한 줄을 추가하세요.
-- 얼굴이 가운데 오도록 정사각형으로 크롭 (원형으로 잘려 표시됨)
 
 > 이 표는 `_data/members.yml`을 기준으로 작성했습니다. 파일명 열은 실제 폴더에 존재하는 파일을 반영합니다(확장자가 `.jpg`가 아니면 그대로 표기).
 
 ## 파일명 목록
 
 ### PI
+
 | 이름 | 파일명 |
 | --- | --- |
 | 서형태 Hyung-Tae Seo | `hyung-tae-seo.jpg` |
 
 ### 현재 구성원 (Current)
+
 | 이름 | 파일명 |
 | --- | --- |
 | 채수언 Sueon Chae | `sueon-chae.jpg` |
-| 김병현 Byeonghyeon Kim | `byeonghyeon-kim.jpg` |
 | 이준우 Junu Lee | `junu-lee.jpg` |
+| 김병현 Byeonghyeon Kim | `byeonghyeon-kim.jpg` |
 | 강병화 Beoung Hwa Kang | `beoung-hwa-kang.jpg` |
 | 김태현 Taehyun Kim | `taehyun-kim.jpg` |
 | 김호진 Hojin Kim | `hojin-kim.jpg` |
@@ -40,6 +43,7 @@
 | 정민규 Mingue Jung | `mingue-jung.jpg` |
 
 ### 졸업생 (Alumni)
+
 | 이름 | 파일명 |
 | --- | --- |
 | 이준호 Junho Lee | `junho-lee.jpg` |
