@@ -119,6 +119,14 @@ current:
       email: "tkvkflaos@kookmin.ac.kr",
     }
   - {
+      name_en: "WooHyun Cho",
+      name_ko: "조우현",
+      role_en: "Undergraduate Student",
+      role_ko: "학부인턴",
+      interest: "AI-Based Robot Control",
+      email: "jwh060104@gmail.com",
+    }
+  - {
       name_en: "Mingue Jung",
       name_ko: "정민규",
       role_en: "Undergraduate Student",
