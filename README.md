@@ -1,7 +1,7 @@
 # arclab-kmu.github.io
 
 국민대학교 **ARC Lab (Autonomous Robotics & Control Lab)** 공식 홈페이지입니다.
-공개 주소: <https://arclab-kmu.github.io>
+공개 주소: <https://arc.kookmin.ac.kr>
 
 이 문서는 **홈페이지 내용을 수정·관리하는 방법**을 설명합니다. 코딩을 몰라도
 아래 규칙만 따라 하면 구성원·사진·논문·소식 등을 직접 추가할 수 있습니다.
